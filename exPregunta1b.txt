@@ -1,0 +1,46 @@
+# PREGUNTA 1 INCISO B
+
+@author: A-SAMUEL
+"""
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import preprocessing
+from statistics import mode
+from statistics import mean
+from statistics import stdev
+
+datos = pd.read_csv("C:\\Users\\A-SAMUEL\\Desktop\\Dummy Data HSS.csv")
+
+print("-----MEDIA-----")
+print(datos['TV'].mean())
+print("-----MODA----")
+print(datos['TV'].mode())
+print("----DESVIACION STANDART-----")
+print(datos['TV'].std())
+
+print("==========================================")
+print("-----MEDIA-----")
+print(datos['Radio'].mean())
+print("-----MODA----")
+print(datos['Radio'].mode())
+print("----DESVIACION STANDART-----")
+print(datos['Radio'].std())
+
+print("==========================================")
+print("-----MEDIA-----")
+print(datos['Social Media'].mean())
+print("-----MODA----")
+print(datos['Social Media'].mode())
+print("----DESVIACION STANDART-----")
+print(datos['Social Media'].std())
+
+print("==========================================")
+print("-----MEDIA-----")
+print(datos['Ventas'].mean())
+print("-----MODA----")
+print(datos['Ventas'].mode())
+print("----DESVIACION STANDART-----")
+print(datos['Ventas'].std())
+ 
